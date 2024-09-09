@@ -13,6 +13,9 @@ Desafio: Escreva um programa que verifica se um número é par ou ímpar.
 ### 🗂️ Dias 4 e 5: 7/9/2024 e 8/9/2024
 Desafio: Crie uma calculadora simples que realiza operações de adição, subtração, divisão e multiplicação.
 
+### 🗂️ Dia 6 – 9/9/24
+Faça um programa que calcula o fatorial de um número. (Python)
+
 ## Instruções para Executar os Exercícios Localmente
 
 1. **Clonar o Repositório**
