@@ -16,6 +16,9 @@ Desafio: Crie uma calculadora simples que realiza operações de adição, subtr
 ### 🗂️ Dia 6 – 9/9/24
 Faça um programa que calcula o fatorial de um número. (Python)
 
+### 🗂️ Dia 7 – 10/9/24
+Escreva um programa que calcula a tabuada de um número. (Python)
+
 ## Instruções para Executar os Exercícios Localmente
 
 1. **Clonar o Repositório**
