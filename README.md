@@ -19,6 +19,10 @@ Faça um programa que calcula o fatorial de um número. (Python)
 ### 🗂️ Dia 7 – 10/9/24
 Escreva um programa que calcula a tabuada de um número. (Python)
 
+### 🗂️Dia 8 – 11/9/24
+Crie um programa que converte temperatura de Celsius para Fahrenheit
+(Python)
+
 ## Instruções para Executar os Exercícios Localmente
 
 1. **Clonar o Repositório**

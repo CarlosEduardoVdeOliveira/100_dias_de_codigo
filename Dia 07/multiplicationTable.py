@@ -1,6 +1,6 @@
 number = float(input("Digite um número: "))
 
-def multiplicationTable(number):
+def multiplication_table(number):
   print(f"Tabuada de {number}:")
   for n in range(1, 11):
     print(f"{n} * {number} = {n*number}")
@@ -11,4 +11,4 @@ while True:
     except ValueError:
         print("Por favor, digite um número válido.")
 
-multiplicationTable(number)
+multiplication_table(number)
