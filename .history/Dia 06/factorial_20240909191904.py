@@ -1,2 +1,0 @@
-numbe =-
-function(number)

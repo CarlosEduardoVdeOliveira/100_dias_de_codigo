@@ -1,1 +1,0 @@
-temperature = input("Digite a temperatura,()")

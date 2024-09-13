@@ -1,2 +1,0 @@
-numbe = input("")
-function(number)
