@@ -45,12 +45,7 @@ Dado um dataframe df contendo dados de funcionários com as colunas: nomes, depa
 
     ```bash
     npm install
-    ``` 
-    Ou, caso queira especificar a biblioteca (acabou rolando um erro similar comigo):
-    ```bash
-    npm install prompt-sync
-    ```
-    
+    ```     
     - Dependências python
     
     ```bash
