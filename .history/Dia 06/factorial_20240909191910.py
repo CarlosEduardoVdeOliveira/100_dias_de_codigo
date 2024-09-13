@@ -1,0 +1,2 @@
+numbe = input("")
+function(number)

@@ -1,0 +1,16 @@
+import pandas as pd
+import numpy as np
+
+dados = {
+    'nomes': ['Ana', 'João', 'Lucas', 'Maria', 'Eva', "Adão", "Carlos"],
+    'departamento': ['TI', 'RH', 'TI', 'Marketing', 'RH', "TI", "TI"],
+    'salario': [15_000, 3000, 6700, 4500, 5500, 3500, 4500]
+}
+
+df = pd.DataFrame(dados)
+
+df_ti = df[df['departamento'] == 'TI']
+
+media_salarial_ti = np.mean(df_ti['salario'])
+
+print(f"A média salarial do departamento de TI é: {media_salarial_ti:.2f}")
