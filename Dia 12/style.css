@@ -59,6 +59,7 @@ main{
 
 .back{
   transform: rotateY(180deg);
+  color: rgb(94, 234, 13);
 }
 
 .card-group{
