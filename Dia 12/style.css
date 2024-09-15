@@ -92,7 +92,7 @@ main{
 }
 
 .card-footer i{
-  color: #e1e1e1;
+  color:  rgb(94, 234, 13);
   transition: opacity ease-in-out .2s;
 }
 .card-footer i:hover{
