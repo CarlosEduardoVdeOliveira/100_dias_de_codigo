@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&display=swap');
+@import "./toggle.css";
+@import "./dark.css";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body{
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #ccc;
+  padding: 16px;
+}
+
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 16px;
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: #242323;
+  position: relative;
+  transition: all ease-in-out .2s;
+}
+
+a:hover{
+  opacity: 0.5;
+}
+a:hover::before{
+  content: "";
+  position: absolute;
+  width: 42px;
+  border: 1px solid #179588;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 0;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 16px 0;
+  flex: 1;
+}
+main h1{
+  margin-bottom: 24px;
+  font-size: 42px;
+}
+
+p{
+  max-width: 50%;
+}
+
+footer{
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-top: 1px solid #ccc;
+}
+
+form{
+  border: 1px solid #CCC;
+  width: 550px;
+  border-radius: 5px;
+  padding: 16px;
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,1);
+  -moz-box-shadow: 2px 2px 5px 1px rgba(0,0,0,1);
+  -webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,1);
+}
+.group-input{
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  gap: 10px;
+}
+label{
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+}
+input, textarea{
+  padding: 16px;
+  border: 1px solid #ccc;
+  color: #CCC;
+  font-size: 16px;
+  width: 100%;
+  outline-color: #064c0d;
+  border-radius: 5px;
+  background: transparent;
+}
+textarea{
+  margin-bottom: 16px;
+}
+
+button{
+  padding: 16px;
+  border-radius: 5px;
+  background: #087c13;
+  color: #eeeeee;
+  font-size: 19px;
+  border: none;
+  cursor: pointer;
+  transition: background ease-in-out .5s;
+}
+button:hover{
+  background-color: #064c0d;
+}

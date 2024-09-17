@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/style.css">
+  <title>Page | Contato</title>
+</head>
+<body>
+  <header>
+    <h1>LOGO</h1>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+    <div class="toggle">
+      <input type="checkbox" id="toggle">
+      <label for="toggle"></label>
+    </div>
+  </header>
+  <main>
+    <form>
+      <h1>CONTATO</h1>
+      <div class="group-input">
+        <label for="name">Nome *</label>
+        <input placeholder="Nome" required type="text" id="name" minlength="3">
+      </div>
+      <div class="group-input">
+        <label for="email">E-mail *</label>
+        <input placeholder="email@example.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required type="email" id="email" >
+      </div>
+      <div class="group-input">
+        <label for="subject">Assunto *</label>
+        <input placeholder="Assunto" required type="text" id="subject">
+      </div>
+      <div class="group-input">
+        <label for="message">Mensagem *</label>
+        <textarea placeholder="Mensagem." id="message" required minlength="5" maxlength="512"></textarea>
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+  <footer><p>&copy;2024 - Todos direitos reservados.</p></footer>
+  <script src="../assets/script.js"></script>
+</body>
+</html>
