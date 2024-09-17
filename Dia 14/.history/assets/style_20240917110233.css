@@ -38,6 +38,7 @@ a{
   color: #242323;
   position: relative;
   transition: all ease-in-out .2s;
+  
 }
 
 a:hover{
@@ -87,7 +88,6 @@ form{
   box-shadow: 2px 2px 5px 1px rgba(0,0,0,1);
   -moz-box-shadow: 2px 2px 5px 1px rgba(0,0,0,1);
   -webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,1);
-  transition: 0.5s;
 }
 .group-input{
   display: flex;

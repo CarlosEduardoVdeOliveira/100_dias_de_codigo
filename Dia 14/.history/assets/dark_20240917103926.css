@@ -1,0 +1,12 @@
+.body-dark{
+  background-color: rgb(21, 21, 21);
+  color: #CCC;
+}
+.link-dark{
+  color: #CCC;
+}
+.form-dark{
+  -webkit-box-shadow: 2px 2px 5px 1px rgba(54,214,169,1);
+  -moz-box-shadow: 2px 2px 5px 1px rgba(54,214,169,1);
+  box-shadow: 2px 2px 5px 1px rgba(54,214,169,1);
+}

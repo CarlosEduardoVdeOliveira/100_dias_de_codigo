@@ -87,7 +87,6 @@ form{
   box-shadow: 2px 2px 5px 1px rgba(0,0,0,1);
   -moz-box-shadow: 2px 2px 5px 1px rgba(0,0,0,1);
   -webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,1);
-  transition: 0.5s;
 }
 .group-input{
   display: flex;
