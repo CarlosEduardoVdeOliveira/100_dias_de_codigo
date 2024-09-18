@@ -40,7 +40,7 @@ Desenvolvendo um temporizador com HTML, CSS E JS. Utilize uma API que captura o 
 ### 🗂️ Dia 14 – 17/9/2024 ✅
 Criando um toggle-button que permite alterar o tema da página para dark/light utilizando HTML, CSS e JavaScript.
 
-### 🗂️ Dia 15 – 18/9/2024 ❌
+### 🗂️ Dia 15 – 18/9/2024 ✅
 Desenvolvendo um contador de caracteres com HTML, CSS E JS. O usuário insere uma frase e a partir daí o contador conta cada letra presente no texto.
 
 ### 🗂️ Dia 16 – 19/9/2024 ❌
