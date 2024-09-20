@@ -46,7 +46,7 @@ Desenvolvendo um contador de caracteres com HTML, CSS E JS. O usuário insere um
 ### 🗂️ Dia 16 – 19/9/2024 ✅
 Criando um carrossel de imagens, interativo, onde as imagens mudam sozinhas, com uma animação, ou mudam de acordo com a interação do usuário
 
-### 🗂️ Dia 17 – 20/9/2024 ❌
+### 🗂️ Dia 17 – 20/9/2024 ✅
 Criando uma aplicação simples, utilizando uma lógica de percorrer uma cadeia específica de caracteres para gerar uma senha aleatória com HTML, CSS E JS O projeto permite que o usuário gere a senha do tamanho que ele deseja e copie-a para seu clipboard no final.
 
 ### 🗂️ Dia 18 – 21/9/2024 ❌
